@@ -1,0 +1,144 @@
+.avion-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Satoshi", sans-serif;
+  font-weight: 500;
+  height: 55px;
+
+  .div-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+    font-size: 16px;
+    margin-left: 45px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    z-index: 99;
+    .SO {
+      &:hover {
+        color: orange;
+        transform: scale(1.4);
+      }
+    }
+    .search-menu {
+      position: relative;
+      top: 100%;
+      left: 0;
+      background: #ccc;
+      border: 1px solid #ccc;
+      padding: 7px;
+      display: flex;
+      align-items: center;
+      left: 50px;
+
+      .search-input {
+        flex: 1;
+        padding: 7px;
+        // margin-right: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      button {
+        padding: 7px 15px;
+        background-color: #2a245d;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+  }
+  p {
+    font-size: 24px;
+    margin: 0;
+    .navLi-avion {
+      text-decoration: none;
+      color: black;
+    }
+  }
+  .div-cart-person {
+    display: flex;
+    gap: 16px;
+    font-size: 16px;
+    margin-right: 45px;
+    .translateOut {
+      color: #2a245d;
+      display: flex;
+      flex-direction: column;
+      margin-top: 5px;
+      &:hover {
+        color: blue;
+        transform: scale(1.2);
+      }
+    }
+    .language-menu {
+      button {
+        cursor: pointer;
+        font-size: 13px;
+
+        &:hover {
+          color: orange;
+          transform: scale(1.1);
+        }
+      }
+    }
+
+    .bi {
+      cursor: pointer;
+      &:hover {
+        color: green;
+        transform: scale(1.4);
+      }
+    }
+  }
+}
+
+.navList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  position: relative;
+  right: 30px;
+  list-style: none;
+  z-index: 1;
+
+  .navLi {
+    text-decoration: none;
+    color: #726e8d;
+    font-weight: 600;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Satoshi", sans-serif;
+  }
+}
+.navLi:hover {
+  color: orange;
+}
+
+.hh {
+  width: 1450px;
+  color: #726e8d;
+}
+
+.basket-i {
+  margin: 9px 5px 0 0;
+}
+.user-av {
+  position: relative;
+  top: 3px;
+  left: 8px;
+}
+
+.us-av {
+  &:hover {
+    color: #0056b3;
+    transform: scale(1.4);
+  }
+}

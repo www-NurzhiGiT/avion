@@ -1,0 +1,47 @@
+.newCeramics-wrapper {
+  width: 1440px;
+  margin: 0 auto;
+  h2 {
+    color: #2a254b;
+    font-family: "Satoshi", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 37px;
+    margin-bottom: 20px;
+    cursor: context-menu;
+  }
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1280px;
+    margin: 0 auto;
+    gap: 20px;
+    font-family: "Satoshi", sans-serif;
+  }
+  .newCeramics-button {
+    width: 100%;
+    display: flex;
+    button {
+      background: #fff;
+      width: 170px;
+      height: 56px;
+      margin: 0 auto;
+      margin-top: 15px;
+      color: #2a254b;
+      font-size: 16px;
+      font-weight: 400;
+      border: none;
+      font-family: "Satoshi", sans-serif;
+      border: 1px solid #2a254b;
+      &:hover {
+        background: #2a254b;
+        color: #fff;
+        cursor: pointer;
+        transition: background 0.4s ease-in-out;
+        transform: scale(1.04);
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+$background-color: #0d1a2b;
+$input-bg-color: #1b2d41;
+$button-bg-color: #00e8a7;
+$text-color: #ffffff;
+$input-placeholder-color: #8a9aa9;
+$box-shadow-color: rgba(0, 0, 0, 0.5);
+
+.bbody {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: $background-color;
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 2rem;
+}
+
+.auth-container {
+  background-color: #16232e;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 10px 20px $box-shadow-color;
+  width: 300px;
+
+  h2 {
+    color: $text-color;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    .input-box {
+      background-color: $input-bg-color;
+      border-radius: 8px;
+      padding: 0.8rem;
+      box-shadow: inset 0 4px 8px $box-shadow-color;
+
+      input {
+        width: 100%;
+        border: none;
+        background: transparent;
+        color: $text-color;
+        font-size: 1rem;
+        outline: none;
+
+        &::placeholder {
+          color: $input-placeholder-color;
+        }
+      }
+    }
+
+    button {
+      padding: 0.8rem;
+      border: none;
+      border-radius: 8px;
+      background-color: $button-bg-color;
+      color: $text-color;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: lighten($button-bg-color, 10%);
+      }
+    }
+
+    p {
+      color: $text-color;
+      font-size: 0.9rem;
+      text-align: center;
+
+      a {
+        color: $button-bg-color;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

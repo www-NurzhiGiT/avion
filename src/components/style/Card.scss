@@ -1,0 +1,31 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    background-color: #f8f9fa;
+    transform: scale(1.01);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  img {
+    width: 325px;
+    height: 375px;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #2a254b;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #2a254b;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+}

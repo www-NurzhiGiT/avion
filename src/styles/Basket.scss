@@ -1,0 +1,138 @@
+.basket {
+  width: 1440px;
+  margin: 0 auto;
+  padding-left: 188px;
+
+  h1 {
+    color: #2a254b;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 64px;
+    margin-bottom: 48px;
+    text-align: left;
+    font-family: "Satoshi", sans-serif;
+  }
+
+  .list {
+    width: 1068px;
+    text-align: center;
+    margin-bottom: 64px;
+
+    .title {
+      width: 1158px;
+      display: flex;
+      justify-content: space-between;
+
+      h3 {
+        color: #2a254b;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        font-family: "Satoshi", sans-serif;
+      }
+    }
+
+    hr {
+      width: 1160px;
+      color: #2a245d;
+    }
+
+    .price3 {
+      text-align: left;
+      font-family: "Satoshi", sans-serif;
+    }
+
+    .price1 {
+      position: relative;
+      left: 130px;
+      font-family: "Satoshi", sans-serif;
+    }
+
+    .price2 {
+      font-family: "Satoshi", sans-serif;
+    }
+
+    .total {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-top: 20px;
+      span {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 16px;
+        h5 {
+          color: #2a254b;
+          font-size: 20px;
+          font-weight: 400;
+          text-align: right;
+        }
+        h4 {
+          color: #2a254b;
+          font-size: 24px;
+          font-weight: 400;
+        }
+      }
+      p {
+        color: #2a254b;
+        font-size: 14px;
+        font-weight: 400;
+      }
+      .b-t-n {
+        display: flex;
+        gap: 5px;
+      }
+      button {
+        width: 172px;
+        height: 56px;
+        border: none;
+        background: #2a254b;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        &:hover {
+          background: rgb(41, 41, 55);
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+          transform: scale(1.04);
+        }
+        &:active {
+          background: rgb(255, 255, 255);
+          color: #2a245d;
+        }
+      }
+    }
+    .infoOProducts {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 1160px;
+      margin-top: 20px;
+      div {
+        width: 320px;
+        display: flex;
+        gap: 20px;
+      }
+      h4 {
+        color: #2a254b;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+        font-family: "Satoshi", sans-serif;
+      }
+      p {
+        color: #2a254b;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+        font-family: "Satoshi", sans-serif;
+      }
+      img {
+        width: 119px;
+        height: 144px;
+      }
+    }
+  }
+}
